@@ -1,0 +1,41 @@
+@import "material-dashboard/mixins";
+@import "material-dashboard/variables";
+@import "material-dashboard/typography";
+@import "material-dashboard/sidebar";
+@import "material-dashboard/toolbar";
+@import "material-dashboard/misc";
+@import "material-dashboard/inputs";
+@import "material-dashboard/footer";
+@import "material-dashboard/cards";
+@import "material-dashboard/tables";
+@import "material-dashboard/tabs";
+@import "material-dashboard/checkboxes";
+@import "material-dashboard/tooltips";
+@import "material-dashboard/buttons";
+@import "material-dashboard/alerts";
+@import "material-dashboard/fixed-plugin";
+@import "material-dashboard/dropdown";
+
+
+// Chartist Series names and colors. This can be extended or customized as desired. Just add more series and colors.
+$ct-series-names: (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o) !default;
+$ct-series-colors: (
+    $indigo-300,
+    #35495E,
+    #727F80,
+    #0544d3,
+    #d70206,
+    #f05b4f,
+    #f4c63d,
+    #d17905,
+    #453d3f,
+    #59922b,
+    #6b0392,
+    #f05b4f,
+    #dda458,
+    #eacf7d,
+    #86797d,
+    #b2c326,
+    #6188e2,
+    #a748ca
+) !default;
